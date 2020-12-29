@@ -75,6 +75,6 @@ public class Planet {
         return yF;
     }
     public void draw(){
-        StdDraw.picture(xxPos,yyPos,"imgages/" + imgFileName);
+        StdDraw.picture(xxPos,yyPos,"images/" + imgFileName);
     }
 }

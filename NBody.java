@@ -17,6 +17,7 @@ public class NBody {
     }
 
     public static void main(String[] args) {
+//        String[] args = {"2e11","20000","data/planets.txt"};
         double T = Double.parseDouble(args[0]);
         double dt = Double.parseDouble(args[1]);
         String filename = args[2];
